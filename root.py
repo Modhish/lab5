@@ -132,5 +132,5 @@ def process_all_files():
             generate_ttl_file(input_file, output_file)
             print(f"Processed {input_file} -> {output_file}")
 
-# Run the process
+# Run the process for this time 
 process_all_files()
